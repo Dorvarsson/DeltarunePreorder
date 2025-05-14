@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML og CSS grunnur">
+    <meta name="Dagur" content="Nemandi">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Verkefni 7. Vinnurammi</title>
+    <link rel="stylesheet" href="css/styles.min.css">
+
+    <link rel="icon" type="image/webp" href="myndir/DeltaruneSymbol.webp">
+</head>
+<body>
+    <main class="parallax order">
+        <section>
+        <div class="order center">
+            <img src="myndir/Deltarune Logo2.png">
+        </div>
+        </section>
+        <form action="takk.html" class="container">
+            <fieldset class="center">
+                <legend>Preorder</legend>
+                <section class="col-2">
+                    <div>
+                        <label>
+                            Fornafn: <br>
+                            <input type="text" placeholder="Fornafn" name="Fornafn" required>
+                        </label>
+                        <label>
+                            Eftirnafn: <br>
+                            <input type="text" placeholder="Eftirnafn" name="Eftirnafn" required>
+                        </label>
+                        <label>
+                            Email <br>
+                            <input type="email" placeholder="Tölvupóstur" name="Tölvupóstur" required>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            Amazone Gjafakortnúmer: <br>
+                            <input type="number" placeholder="Kortnúmer" name="kortnumer" required>
+                        </label> <br>
+                        <label>
+                            Amazone Gjafakortnafn: <br>
+                            <input type="text" placeholder="Nafn" name="nafn" required>
+                        </label>
+                        <p>
+                            Vörulisti <br>
+                            <select name="vara">
+                            <option>Reykjavík Sýning</option>
+                            <option>París Sýning</option>
+                            <option>Peking Sýning</option>
+                            <option>Seattle Sýning</option>
+                            <option>Tokyo Sýning</option>
+                            </select>
+                        </p>
+                    </div>
+                </section>
+                <p class="center">
+                  <input type="submit" name="submit" value="Kaupa vöru">
+                </p>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+    </main>
+    <footer>
+        <p>&copy 2025</p>
+    </footer>
+</body>
